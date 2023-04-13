@@ -1,0 +1,132 @@
+
+  
+  
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+nav.sticky{
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a{
+  font-weight: 100;
+  font-size: 35px;
+  color: #4070f4;
+}
+nav.sticky .logo a{
+  color: #fff;
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #0E2431;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: #4070f4;
+ }
+ nav.sticky .nav-links li a{
+   color: #fff;
+   transition: all 0.4s ease;
+}
+ nav.sticky .nav-links li a:hover{
+  color: #0E2431;
+}
+.home{
+  height: 10vh;
+  width: 10%;
+  background: url("") no-repeat;
+  background-size: cover;
+  background-position: ;
+  background-attachment: ;
+  font-family: ;
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 6px;
+  color: #4070f4;
+}
+.text{
+  text-align: justify;
+  padding: 40px 80px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+  div.content{
+    background-color:#353935;
+    float:left;
+    border: 2.5px solid  #884ea0  ;
+    margin:35px;
+    height:240px;
+     border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+  
+  }
+  
+  
+  
+  video{
+     border-top-left-radius:5px;
+    border-top-right-radius:5px;
+   
+  }
+  p{
+    text-align:center;
+    color:rgb(255, 234, 0);
+    
+  }
+  h3{
+    color: rgb(195, 197, 198);
+    text-align: center;
+  }
+  p1{
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  p2{
+    color:rgb(0, 251, 255);
+  }
+  button{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 
